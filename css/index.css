@@ -8,11 +8,17 @@
 body {
   line-height: 1.6;
 }
-
 .container1 {
   width: 100%;
-  background-color: #000;
+  height: 100vh;
+  background: url(../img/g7.jpg) no-repeat center;
+  position: relative;
+  background-size: cover; 
+  background-attachment: fixed; 
+  overflow: hidden;
 }
+
+
 
 .container1 .nav {
   max-width: 1200px;
