@@ -19,7 +19,7 @@ body {
 
 
 
-.container1 .nav {
+.nav {
   max-width: 1200px;
   margin: 0 auto;
   padding: 16px 32px;
@@ -29,26 +29,27 @@ body {
   align-items: center;
 }
 
-.container1 .nav .logo h1 a {
+.nav .logo h1 a {
   color: #fff;
   text-decoration: none;
   font-size: 30px;
 }
 
-.container1 .nav ul {
+.nav ul {
   list-style: none;
   display: flex;
   gap: 24px;
 }
 
-.container1 .nav ul li a {
+.nav ul li a {
   color: #fff;
   font-size: 15px;
   font-weight: 500;
   text-decoration: none;
   transition: color 0.3s ease;
 }
-
-.container1 .nav ul li a:hover {
-  color: #f0f0f0;
+.nav ul li a:hover{
+  color: #a3c962;
 }
+
+
