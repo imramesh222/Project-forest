@@ -14,8 +14,7 @@ body {
   background: url(../img/g7.jpg) no-repeat center;
   position: absolute;
   background-size: cover; 
-  background-attachment: fixed; 
-  overflow: hidden;
+ 
 }
 
 
@@ -23,7 +22,7 @@ body {
 .container1 .nav {
   max-width: 1200px;
   margin: 0 auto;
-  /* padding: 16px 32px; */
+  padding: 16px 32px;
   
   display: flex;
   justify-content: space-between;
