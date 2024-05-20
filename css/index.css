@@ -52,4 +52,30 @@ body {
   color: #a3c962;
 }
 
+.front{
+  width: 65%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+  text-align:center;
 
+}
+.front .save_forest{
+  color:#fff;
+  font-size: 39px;
+  font-family: serif;
+}
+.global_warming{
+  color:#fff;
+  font-size: 28px;
+  font-family: serif;
+}
+
+.front p{
+  color: #dadada;
+  font-size: 15px ;
+  line-height: 27px;
+  text-shadow: 2px 2px 8px #000;
+}
