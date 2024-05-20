@@ -79,3 +79,20 @@ body {
   line-height: 27px;
   text-shadow: 2px 2px 8px #000;
 }
+.front .about_us{
+  color: #a3c962;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 9px 15px;
+  border: 1px solid #fff;
+  font-size: 15px;
+}
+.front .join_us{
+  color: #fff;
+  background-color: #a3c962;
+  border-radius: 15px;
+  padding: 9px 15px;
+  border: 1px solid #fff;
+  font-size: 15px;
+  margin: 20px 0 0 0;
+}
