@@ -4,6 +4,13 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   
 }
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
 
 body {
   line-height: 1.6;
@@ -17,14 +24,14 @@ body {
   height: 100vh;
   -webkit-background-size: cover;
   filter: brightness(80%);
-
+  overflow-x:hidden ;
 }
 
 
 
 .nav {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%; /* Prevents any element from exceeding 100% width */
   margin: 0px 20px 20px 30px;
   padding: 16px 32px;  
   display: flex;
@@ -111,4 +118,198 @@ body {
 .join_us:hover{
   background-color: #000;
   transition: 0.5s;
+}
+
+
+/* container 2 csss */
+.container2{
+  width: 100%;
+  margin-top: 50px;
+  padding: 16px 32px;
+  /* display: flex; */
+  display: grid;
+  place-items: center; /* center both horizontally and vertically */
+  overflow-x: hidden; /* hide overflow in x axid*/
+}
+.container1 .box2{
+  display: flex;  /* This show contents inside this div in horizontal */margin: 20px 20px 20px 13%;
+}
+.container2 .box2{
+  display: flex;  /* This show contents inside this div in horizontal */
+  place-items: center; /* center both horizontally and vertically */
+}
+
+.container2 .box1{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.box1 h3{
+  color: #28a745;
+}
+/* Aboutus part */
+
+.aboutus{
+  margin-left: 8%;
+}
+.aboutus h3{
+  color: #28a745;
+}
+/* Circle part */
+/* Circle-90% */
+.all-circle{
+  display: flex;
+}
+.all-circle .circle1{
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #17a2b8;
+  border-radius: 50%;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: -1;
+
+}
+.all-circle .circle1 .inside-circle1{
+  width: 120px;
+  border: 2px solid #ebebeb;
+  height: 120px;
+  border-radius: 50%;
+  background: transparent;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  /* top: 10%;
+  left:15%; */
+  z-index: 2;
+}
+.inside-circle1 h1.percent{
+  color: #17a2b8;
+
+  /* position: absolute; */
+  /* top: 40%;
+  left: 45%; */
+  margin-top: 40px;
+  margin-left: 40px;
+  z-index: 3;
+
+}
+
+.all-circle .rectangle1 {
+  margin-bottom: 60px;
+  margin-right: 10px;
+  width: 48px;
+  height: 100px;
+  background-color: #fff;
+  transform: rotate(-15deg);
+  margin-top: 2px;
+  z-index: 1;/* Position the rectangle above the outer circle */
+ 
+}
+
+/* Circle-80% */
+
+.all-circle .circle2{
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #28a745;
+  border-radius: 50%;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: -1;
+
+}
+.all-circle .circle2 .inside-circle2{
+  width: 120px;
+  border: 2px solid #ebebeb;
+  height: 120px;
+  border-radius: 50%;
+  background: transparent;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  /* top: 10%;
+  left:15%; */
+  z-index: 2;
+}
+.inside-circle2 h1.percent{
+  color: #28a745;
+  /* position: absolute; */
+  /* top: 40%;
+  left: 45%; */
+  margin-top: 40px;
+  margin-left: 40px;
+  z-index: 3;
+
+}
+
+.all-circle .rectangle2 {
+  margin-bottom: 35px;
+  margin-right: 14px;
+  width: 80px;
+  height: 145px;
+  background-color: #fff;
+  transform: rotate(-30deg);
+  margin-top: 2px;
+  z-index: 1; /* Position the rectangle above the outer circle */
+ 
+}
+
+/* Circle-75% */
+
+.all-circle .circle3{
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffc107;
+  border-radius: 50%;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: -1;
+
+}
+.all-circle .circle3 .inside-circle3{
+  width: 120px;
+  border: 2px solid #ebebeb;
+  height: 120px;
+  border-radius: 50%;
+  background: transparent;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  /* top: 10%;
+  left:15%; */
+  z-index: 2;
+}
+.inside-circle3 h1.percent{
+  color: #ffc107;
+  /* position: absolute;
+  top: 40%;
+  left: 45%; */
+  margin-top: 40px;
+  margin-left: 40px;
+  z-index: 3;
+
+}
+
+.all-circle .rectangle3 {
+  margin-bottom: 60px;
+  margin-right: 35px;
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  transform: rotate(-40deg);
+  margin-top: 2px;
+  z-index: 1; /* Position the rectangle above the outer circle */
+ 
 }
