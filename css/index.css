@@ -132,7 +132,8 @@ body {
   overflow-x: hidden; /* hide overflow in x axid*/
 }
 .container1 .box2{
-  display: flex;  /* This show contents inside this div in horizontal */margin: 20px 20px 20px 13%;
+  display: flex;  /* This show contents inside this div in horizontal */
+  margin: 20px 20px 20px 13%;
 }
 .container2 .box2{
   display: flex;  /* This show contents inside this div in horizontal */
@@ -148,6 +149,9 @@ body {
 }
 /* Aboutus part */
 
+.box2 .leaf{
+  margin: 0 0 0 60px;
+}
 .aboutus{
   margin-left: 8%;
 }
