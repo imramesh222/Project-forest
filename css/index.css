@@ -326,7 +326,7 @@ body {
     /* height: 100vh; */
     background: url(../img/s1.jpg);
   margin-top: 50px;
-  padding: 16px 32px;
+  padding: 86px 32px;
   /* display: flex; */
   display: grid;
   place-items: center; /* center both horizontally and vertically */
@@ -341,14 +341,35 @@ body {
   margin-left: 20px;
 }
 .right h1{
+  font-size: 20px;
   margin-top: -20px;
+  color: #a3c962;
+}
+.right h2{
+  padding-top: -8px;
+  font-size: 37px;
+  color: #fff;
+}
+.box-1 p{
+  color: #d8d8d8;
 }
 .container3 .box-2{
   display: grid;
 }
-.square{
-  width: 348px;
-  height: 203px;
-  background: #fff;
+.all-squares {
+  display: grid;
+  grid-template-columns: repeat(3, 0.9fr); /* Three columns with equal width */
+  gap: 20px; /* Adjust gap between squares as needed */
 }
 
+.square {
+  width: 100%; /* Make each square take up the entire width of its column */
+  height: auto; /* Let the height adjust to the content */
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.square .icon {
+  font-size: 60px !important;
+}
