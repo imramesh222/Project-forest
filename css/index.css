@@ -21,10 +21,10 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   -webkit-background-size: cover;
-  filter: brightness(80%);
+  /* filter: brightness(80%); */
   overflow-x:hidden ;
 }
 
@@ -39,11 +39,15 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.logo{
+  margin-left: 7px;
+  margin-top: -5px;
+}
 
 .nav .logo h1 a {
   color: #fff;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 31px;
   font-weight: 600;
 }
 
@@ -51,14 +55,18 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
+  margin-right: 60px;
+  margin-top: 20px;
 }
 
 .nav ul li a {
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   text-decoration: none;
   transition: color 0.3s ease;
+  margin: 0 10px 0 0;
+  letter-spacing: 1px;
 }
 .nav ul li a:hover{
   color: #a3c962;
@@ -379,11 +387,49 @@ body {
 .square .icon {
   font-size: 60px !important;
 }
+
+
+/* Container4 */
+
+.container4 .box_1{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  
+}
+.box_1 .leftbox{
+  margin-left: 440px;
+  text-align: end;
+}
+.leftbox h1{
+  font-size: 20px;
+  color: #a3c962;
+  font-weight: 600;
+}
+.leftbox h2{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.box_1 .rightbox{
+  margin-right: 65px;
+  text-align: left;
+}
+.rightbox p{
+  font-size: 15px;
+  color: #676662;
+  letter-spacing: 1px;
+  padding: 10px 0px;
+  line-height: 28px;
+  
+}
 .container4 .box_2{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   column-gap: 20px;
   row-gap: 20px;
+  padding: 100px 130px 0 135px;
+  margin-right: 20px;
 }
 
 
@@ -423,7 +469,7 @@ body {
 
 .box_2 .rightgrid{
   display: grid;
-  grid-template-rows: 7.5fr 4.5fr 9fr;
+  grid-template-rows: repeat(2,1fr);
   gap: 20px;
   
 }
@@ -437,7 +483,7 @@ body {
 #t3{
   grid-row-start: 1;
   grid-row-end: 2;
-  width: auto;
+  width: 100%;
   height: 100%;
 }
 #g-4{
@@ -450,11 +496,11 @@ body {
   grid-row-start: 2;
   grid-row-end: 3;
   width: 100%;
-  height: auto;
+  height: 68.5%;
 }
 #g6{
   grid-row-start: 3;
   grid-row-end: 4;
-  width: 150%;
-  height: auto;
+  width: 195%;
+  height: 98%;
 }

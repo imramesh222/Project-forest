@@ -5,55 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    .container{
-      display: grid;
-      grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
-      grid-gap: 20px;
-      grid-auto-rows: minmax(100px,auto);
-      grid-auto-columns: minmax(50px,auto);
-      column-gap: 120px;
-      row-gap: 120px;
+    *{
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 10px; /* Gap between grid items */
+}
 
-      
-    }
-    .boxes{
-      background: lawngreen;
-      border: 2px solid green;
-    }
-    #box2{
-     grid-row-start: 2;
-     grid-row-end: 3;
-     grid-column-start: 3;
-     grid-column-end: 4;
-    }
-    #box1{
-      grid-column-start: 1;
-      grid-column-end: 5;
-    }
-    .nested-list{
-      display: grid;
-      /* grid-template-columns: repeat(auto-fill,minmax(00px,1fr)); */
-      grid-template-columns: repeat(3,1fr);
-    }
-    .nested_item{
-      border: 2px solid red;
-    }
+.grid-item {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
 
+.image-item {
+    grid-column: 1; /* Place in the first column */
+}
+
+.image-item img {
+    width: 100%; /* Make the image fill the grid item */
+    height: auto; /* Maintain aspect ratio */
+}
 
   </style>
 </head>
 <body>
-  <div class="container">
-    <!-- shortcut------- div.boxes{box $}*5 -->
-    <div class="boxes nested-list" id="box1">
-      <div class="nested_item">box inside box 1</div>
-      <div class="nested_item">box inside box 2</div>
-      <div class="nested_item">box inside box 3</div>
+  <div class="grid-container">
+    <div class="grid-item image-item">
+        <img src="../img/g6.jpg" alt="Description of image">
     </div>
-    <div class="boxes" id="box2">box 2</div>
-    <div class="boxes">box 3</div>
-    <div class="boxes">box 4</div>
-    <div class="boxes">box 5</div>
+    <div class="grid-item">Item 2</div>
+    <div class="grid-item">Item 3</div>
+    <div class="grid-item">Item 4</div>
   </div>
 </body>
 </html>
+
+
