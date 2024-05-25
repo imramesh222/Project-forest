@@ -382,23 +382,79 @@ body {
 .container4 .box_2{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  column-gap: 10px;
-  padding: 0 9%;
+  column-gap: 20px;
+  row-gap: 20px;
 }
-.leftgrid{
+
+
+
+.box_2 .leftgrid{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-gap: 20px;
-  grid-auto-rows: minmax(100px,auto);
-  grid-auto-columns: minmax(50px,auto);
+  column-gap: 20px;
+  row-gap: 20px;
+}
 
+#g1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 100%;
+  height: auto;
+}
+#g2{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 100%;
+  height: auto;
+}
+#g3{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 100%;
+  height: auto;
+}
+#g7{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 100%;
+  height: auto;
+}
+
+
+.box_2 .rightgrid{
+  display: grid;
+  grid-template-rows: 7.5fr 4.5fr 9fr;
+  gap: 20px;
   
 }
-  .rightgrid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 20px;
-    grid-auto-rows: minmax(50px,auto);
-    grid-auto-columns: minmax(50px,auto);
 
+#g4{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+  height: auto;
+}
+#t3{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: auto;
+  height: 100%;
+}
+#g-4{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  height: auto;
+}
+#g5{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  height: auto;
+}
+#g6{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 150%;
+  height: auto;
 }
