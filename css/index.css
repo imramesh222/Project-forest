@@ -5,13 +5,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   
 }
-/* *,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
+
 
 body {
   line-height: 1.6;
@@ -477,30 +471,95 @@ body {
 #g4{
   grid-row-start: 1;
   grid-row-end: 2;
-  width: 100%;
-  height: auto;
+
 }
 #t3{
   grid-row-start: 1;
   grid-row-end: 2;
-  width: 100%;
-  height: 100%;
+
 }
 #g-4{
   grid-row-start: 2;
   grid-row-end: 3;
-  width: 100%;
-  height: auto;
+
 }
 #g5{
   grid-row-start: 2;
   grid-row-end: 3;
-  width: 100%;
-  height: 68.5%;
+
 }
 #g6{
   grid-row-start: 3;
   grid-row-end: 4;
-  width: 195%;
-  height: 98%;
+
 }
+
+
+/* Container 9 */
+
+.container9{
+  width: 100%;
+  text-align: center;
+  padding: 100px;
+}
+.boxx1{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;  
+}
+.boxx1 p{
+  text-align: end;
+  
+  
+}
+.boxx1 .rightside{
+  text-align: start;
+  padding-right: 183px;
+  padding-left: 26px;
+
+}
+.boxx1 .rightside h1{
+  font-size: 20px;
+  color: #a3c962;
+  font-weight: 600;
+
+}
+.boxx1 .rightside h2{
+  font-size: 37px;
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.container9 .boxx2{
+  /* justify-content: space-between; */
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  height: auto;
+}
+
+.container9 .boxx2 .col img{
+  width: 100%;
+  /* height: 100%; */
+}
+
+.description{
+  padding-top: 20px;
+}
+.description h1{
+  font-size: 22px;
+  font-weight: 700;
+  color: #a3c962;
+}
+.description h2{ 
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+/* .sites {
+background: black;
+color: #fff;
+} */
