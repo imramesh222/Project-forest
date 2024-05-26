@@ -385,6 +385,111 @@ body {
 
 /* Container4 */
 
+.container4 .text {
+  display: flex;
+  align-items: center;
+}
+
+.container4 .lefttext {
+  color: rgb(24, 23, 23);
+  width: 50%;
+  text-align: right;
+  margin-top: 100px;
+
+
+}
+
+.container4 .lefttext p {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(169, 211, 105);
+}
+
+.container4 .lefttext h1 {
+  letter-spacing: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.container4 .righttext {
+  color: rgb(92, 89, 89);
+  width: 39%;
+  margin-top: 108px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.container4 .gallery {
+  width: 83%;
+  display: grid;
+  gap: 30px;
+  height: 1200px;
+  margin: 50px 0 70px;
+  margin-left: 7.5%;
+}
+
+
+.container4 .gallery .item {
+  text-align: center;
+
+
+}
+
+.container4 .gallery .item img {
+  width: 100%;
+  height: 100%;
+}
+
+.container4 .gallery .item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 4;
+}
+
+.container4 .gallery .item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.container4 .gallery .item3 {
+  grid-column: 4;
+  grid-row: 1 / span 3;
+}
+
+.container4 .gallery .item4 {
+  grid-column: 1;
+  grid-row: 5 / span 2;
+}
+
+.container4 .gallery .item5 {
+  grid-column: 2;
+  grid-row: 5 /span 2;
+}
+
+.container4 .gallery .item6 {
+  grid-column: 3;
+  grid-row: 4 /span 2;
+}
+
+.container4 .gallery .item7 {
+  grid-column: 4;
+  grid-row: 4 / span 2;
+}
+
+.container4 .gallery .item8 {
+  grid-column: 1 / span 2;
+  grid-row: 7 / span 4;
+}
+
+.container4 .gallery .item9 {
+  grid-column: 3 / span 2;
+  grid-row: 6 /span 4;
+}
+/* 
 .container4 .box_1{
   text-align: center;
   display: flex;
@@ -492,7 +597,7 @@ body {
   grid-row-start: 3;
   grid-row-end: 4;
 
-}
+} */
 
 
 /* Container 9 */
@@ -563,3 +668,112 @@ body {
 background: black;
 color: #fff;
 } */
+
+
+
+
+
+
+
+/* AChievements */
+.achievement {
+  width: 100%;
+  background-color: #a3c962;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+  padding: 4rem;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.achievement__thing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+}
+
+.achievement__thing p {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.achievement__thing p:last-child {
+  color: white;
+  font-weight: 700;
+}
+
+.achievement__thing span i {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.features {
+  padding: 2rem 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.features__title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.features__title p {
+  text-align: right;
+  width: 50%;
+}
+
+.features__title h1 {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.features__title h1 span:first-child {
+  font-size: 1.2rem;
+  color: #28a745;
+}
+
+.features__title h1 span:last-child {
+  font-size: 2.5rem;
+}
+
+.features__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.features__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.features__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  box-shadow: 0 5px 20px #000000b4;
+  border-radius: 10px;
+  padding: 0.5rem 3rem;
+}
+
+.features__card--heading h2 {
+  color: #a3c962;
+  font-size: 1.6rem;
+}
+
+.features__card i {
+  font-size: 2rem;
+}
