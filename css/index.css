@@ -363,12 +363,12 @@ body {
 .all-squares {
   display: grid;
   grid-template-columns: repeat(3,1fr); /* Three columns with equal width */
-  gap: 20px; /* Adjust gap between squares as needed */
+  gap: 20px; 
 }
 
 .square {
-  width: 100%; /* Make each square take up the entire width of its column */
-  height: auto; /* Let the height adjust to the content */
+  width: 100%; 
+  height: auto; 
   background: #fff;
   text-align: center;
   padding: 20px;
@@ -671,7 +671,7 @@ body {
   gap: 10px;
 }
 
-/* Each social media icon */
+/* social media icon */
 .sites i {
   background-color: black;
   color: white;
@@ -1032,17 +1032,17 @@ body {
 .butt {
   width: 80px;
   height: 80px;
-  background-color: #fff; /* Inner circle black */
-  border-radius: 50%; /* Make it a circle */
+  background-color: #fff; 
+  border-radius: 50%; 
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px; /* Space between the circle and the text */
+  margin-bottom: 20px; 
 }
 
 .butt .fa {
-  color: #000; /* Icon white */
-  font-size: 40px; /* Adjust size as needed */
+  color: #000; 
+  font-size: 40px; 
 }
 
 .descript h1 {
@@ -1053,7 +1053,7 @@ body {
 
 .descript p {
   font-size: 16px;
-  max-width: 100%; /* Optional: limit the paragraph width for better readability */
+  max-width: 100%; 
 }
 
 /* Blog */
@@ -1162,8 +1162,8 @@ textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
-
+  border: 1px solid #000;
+  background: #dfdddd;
   box-sizing: border-box;
 }
 #phone{
@@ -1171,7 +1171,7 @@ textarea {
 }
 textarea {
   height: 150px;
-  color: #ccc;
+  color: #000;
 }
 input[type="submit"] {
   background-color: #a3c962;
