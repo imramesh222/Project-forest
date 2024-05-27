@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
 }
 .container1 {
-  background: url(../img/g7.jpg) no-repeat center;
+  background: url(../img/g7.jpg) ;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,23 +76,30 @@ body {
   text-align:center;
 
 }
-.front .save_forest{
-  color:#fff;
-  font-size: 39px;
-  font-family: serif;
-}
 .global_warming{
   color:#fff;
-  font-size: 28px;
+  font-size: 38px;
   font-family: serif;
 }
+.front .save_forest{
+  color:#fff;
+  font-size: 49px;
+  
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
 
 .front p{
   color: #dadada;
-  font-size: 15px ;
+  font-size: 16px ;
   line-height: 27px;
   text-shadow: 2px 2px 8px #000;
   padding: 0em 4em;
+ 
+  
+  
 }
 .front .about_us{
   color: #a3c962;
@@ -153,10 +160,11 @@ body {
 /* Aboutus part */
 
 .box2 .leaf{
-  margin: 0 0 0 156px;
+  padding-left: 32px;
 }
 .aboutus{
   margin-left: 8%;
+  padding-right: 100px;
 }
 .aboutus h3{
   color: #28a745;
@@ -182,7 +190,7 @@ body {
 }
 .all-circle .circle1 .inside-circle1{
   width: 120px;
-  border: 2px solid #ebebeb;
+  border: 2px solid #8b8787;
   height: 120px;
   border-radius: 50%;
   background: transparent;
@@ -195,12 +203,13 @@ body {
 }
 .inside-circle1 h1.percent{
   color: #17a2b8;
-
+  
   /* position: absolute; */
   /* top: 40%;
   left: 45%; */
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
   z-index: 3;
 
 }
@@ -235,7 +244,7 @@ body {
 }
 .all-circle .circle2 .inside-circle2{
   width: 120px;
-  border: 2px solid #ebebeb;
+  border: 2px solid #8b8787;
   height: 120px;
   border-radius: 50%;
   background: transparent;
@@ -251,8 +260,9 @@ body {
   /* position: absolute; */
   /* top: 40%;
   left: 45%; */
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
   z-index: 3;
 
 }
@@ -287,7 +297,7 @@ body {
 }
 .all-circle .circle3 .inside-circle3{
   width: 120px;
-  border: 2px solid #ebebeb;
+  border: 2px solid #8b8787;
   height: 120px;
   border-radius: 50%;
   background: transparent;
@@ -303,8 +313,9 @@ body {
   /* position: absolute;
   top: 40%;
   left: 45%; */
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
   z-index: 3;
 
 }
