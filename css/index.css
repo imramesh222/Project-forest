@@ -1161,9 +1161,11 @@ body {
   padding: 80px
 }
 
-
-.rightbox form {
+.rightbox{
   width: 50%;
+}
+.rightbox form {
+  width: 100%;
   
 }
 input[type="text"],
@@ -1196,4 +1198,35 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #000;
   transition: 0.3s ease-in-out;
+}
+
+.message .boxx2{
+  display: flex;
+}
+/* .contacts{
+  padding-right: 800px;
+} */
+.boxx2 .address{
+  display: flex;
+  text-align: start;
+  align-items: center;
+}
+.address .words{
+  display: block;
+}
+.words h1{
+  font-size: 19px;
+  font-weight: 700;
+  color: #a3c962;
+}
+.words h2{
+  font-size: 14px;
+  color: #4c4c4c;
+  line-height: 28px;
+}
+.contacts{
+  padding-left: 50px;
+}
+.address .ico{
+  padding-right: 30px;
 }
