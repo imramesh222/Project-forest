@@ -1,47 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    *{
-      margin: 0;
-      box-sizing: border-box;
-    }
-    .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    gap: 10px; /* Gap between grid items */
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Profiles</title>
+    
+    <!-- Include Bootstrap Icons for the social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      /* styles.css */
+
+/* General reset and body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.grid-item {
-    background-color: lightgray;
-    padding: 20px;
+/* Container for the columns */
+.boxx2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Each column */
+.col {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
     text-align: center;
 }
 
-.image-item {
-    grid-column: 1; /* Place in the first column */
+/* Images */
+.col img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-.image-item img {
-    width: 100%; /* Make the image fill the grid item */
-    height: auto; /* Maintain aspect ratio */
+/* Description styling */
+.description {
+    padding: 15px;
 }
 
-  </style>
+.description h1 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.description h2 {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 1em;
+}
+
+/* Social media icons container */
+.sites {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Each social media icon */
+.sites i {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+    </style>
 </head>
 <body>
-  <div class="grid-container">
-    <div class="grid-item image-item">
-        <img src="../img/g6.jpg" alt="Description of image">
+    <div class="boxx2">
+        <div class="col">
+            <img src="../img/t1.jpg" alt="">
+            <div class="description">
+                <h1>Ramesh Rawat</h1>
+                <h2>Volunteer</h2>
+                <div class="sites">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-rss-fill"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <img src="../img/t2.jpg" alt="">
+            <div class="description">
+                <h1>Ramesh Rawat</h1>
+                <h2>Volunteer</h2>
+                <div class="sites">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-rss-fill"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <img src="../img/t3.jpg" alt="">
+            <div class="description">
+                <h1>Ramesh Rawat</h1>
+                <h2>Volunteer</h2>
+                <div class="sites">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-rss-fill"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <img src="../img/t4.jpg" alt="">
+            <div class="description">
+                <h1>Ramesh Rawat</h1>
+                <h2>Volunteer</h2>
+                <div class="sites">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-rss-fill"></i>
+                </div>
+            </div>
+        </div>      
     </div>
-    <div class="grid-item">Item 2</div>
-    <div class="grid-item">Item 3</div>
-    <div class="grid-item">Item 4</div>
-  </div>
 </body>
 </html>
-
-
