@@ -1264,10 +1264,12 @@ footer{
   background: #a3c962;
   text-align: center;
   align-items: center;
+  padding:  20px 0;
 }
 footer .rights {
   display: flex; 
   justify-content: center;
+  
 }
 .rights a{
   text-decoration: none;
@@ -1284,15 +1286,26 @@ footer .rights {
   justify-content: center; /* Center the icons horizontally */
   gap: 20px; /* Space between the icons */
   padding: 20px; /* Padding around the icons */
-  background-color: #a3c962; 
+  
+}
+.social-icons .f-icons{
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #000;
+  border-radius: 50%;
+}
+.social-icons a {
+  font-size: 15px; /* Icon size */
+  color: #fff; /* Icon color */
+  
 }
 
-.social-icons i {
-  font-size: 24px; /* Icon size */
-  color: #333; /* Icon color */
-  transition: color 0.3s; /* Smooth color transition */
+.social-icons i{
+  padding-top: 10px;
 }
-
 .social-icons i:hover {
-  color: #007bff; /* Color on hover */
+  color: #a3c962; /* Color on hover */
+  transition: color 0.3s; /* for smooth color transition */
 }
+
+
