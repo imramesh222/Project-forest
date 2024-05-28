@@ -1,69 +1,43 @@
-<!DOCTYPE html>
-<html>
+<!-- 
+    <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Icons</title>
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        .flex-container {
-            background: yellow;
+        .social-icons {
             display: flex;
-            height: 200px; /* For demonstration purposes */
-            align-items: center; /* Aligns items vertically in the center */
-            border: 1px solid black;
+            justify-content: center; /* Center the icons horizontally */
+            gap: 20px; /* Space between the icons */
+            padding: 20px; /* Padding around the icons */
+            background-color: #f1f1f1; /* Background color of the container */
         }
-        .flex-item {
-            background-color: lightblue;
-            padding: 20px;
+
+        .social-icons i {
+            font-size: 24px; /* Icon size */
+            color: #333; /* Icon color */
+            transition: color 0.3s; /* Smooth color transition */
         }
-        .flex-container {
-            display: flex;
-            justify-content: space-between; /* Distributes items evenly with space between */
-            border: 1px solid black;
-        }
-        .flex-item {
-            background-color: lightgreen;
-            padding: 20px;
-        }
-        .text-container {
-            width: 300px;
-            border: 1px solid black;
-        }
-        .left-align {
-            text-align: left;
-        }
-        .right-align {
-            text-align: right;
-        }
-        .center-align {
-            text-align: center;
-        }
-        .justify-align {
-            text-align: justify;
+
+        .social-icons i:hover {
+            color: #007bff; /* Color on hover */
         }
     </style>
 </head>
 <body>
-    <div class="flex-container">
-        <div class="flex-item">Item 1</div>
-        <div class="flex-item">Item 2</div>
-        <div class="flex-item">Item 3</div>
+    <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
     </div>
-
-    <div class="text-container left-align">
-        <p>This text is left-aligned.</p>
-    </div>
-    <div class="text-container right-align">
-        <p>This text is right-aligned.</p>
-    </div>
-    <div class="text-container center-align">
-        <p>This text is centered.</p>
-    </div>
-    <div class="text-container justify-align">
-        <p>This text is justified, meaning it is stretched so that each line has equal width.</p>
- 
-    <div class="flex-container">
-        <div class="flex-item">Item 1</div>
-        <div class="flex-item">Item 2</div>
-        <div class="flex-item">Item 3</div>
-    </div>
-    </div>
-    </body>
-    </html>
+</body>
+</html>

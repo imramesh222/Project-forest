@@ -1279,16 +1279,20 @@ footer .rights {
   color: #000;
 }
 
-footer .ficons{
-  justify-content: center;
-  text-align: center;
-  list-style: none;
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  gap: 20px; /* Space between the icons */
+  padding: 20px; /* Padding around the icons */
+  background-color: #a3c962; 
 }
-.ficons span{
-  font-size: 44px;
-  width: 32px;
-  height: 32px;
-  line-height: 33px;
-  background-color: #000;
-  color: white;
+
+.social-icons i {
+  font-size: 24px; /* Icon size */
+  color: #333; /* Icon color */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-icons i:hover {
+  color: #007bff; /* Color on hover */
 }
