@@ -796,6 +796,10 @@ padding-left: 50px;
   border-radius: 10px;
   padding: 0.5rem 3rem;
 }
+#features_card{
+  
+  margin-left: 30px;
+}
 
 .features__card--heading h2 {
   color: #a3c962;
