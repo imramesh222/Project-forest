@@ -1278,3 +1278,17 @@ footer .rights {
   text-decoration: underline;
   color: #000;
 }
+
+footer .ficons{
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+.ficons span{
+  font-size: 44px;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  background-color: #000;
+  color: white;
+}

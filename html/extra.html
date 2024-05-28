@@ -1,142 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volunteer Profiles</title>
-    
-    <!-- Include Bootstrap Icons for the social media icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="styles.css">
     <style>
-      /* styles.css */
-
-/* General reset and body styling */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-/* Container for the columns */
-.boxx2 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* Each column */
-.col {
-    background: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
-    text-align: center;
-}
-
-/* Images */
-.col img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* Description styling */
-.description {
-    padding: 15px;
-}
-
-.description h1 {
-    font-size: 1.5em;
-    margin: 0.5em 0;
-}
-
-.description h2 {
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 1em;
-}
-
-/* Social media icons container */
-.sites {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-/* Each social media icon */
-.sites i {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-}
-
+        .flex-container {
+            background: yellow;
+            display: flex;
+            height: 200px; /* For demonstration purposes */
+            align-items: center; /* Aligns items vertically in the center */
+            border: 1px solid black;
+        }
+        .flex-item {
+            background-color: lightblue;
+            padding: 20px;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between; /* Distributes items evenly with space between */
+            border: 1px solid black;
+        }
+        .flex-item {
+            background-color: lightgreen;
+            padding: 20px;
+        }
+        .text-container {
+            width: 300px;
+            border: 1px solid black;
+        }
+        .left-align {
+            text-align: left;
+        }
+        .right-align {
+            text-align: right;
+        }
+        .center-align {
+            text-align: center;
+        }
+        .justify-align {
+            text-align: justify;
+        }
     </style>
 </head>
 <body>
-    <div class="boxx2">
-        <div class="col">
-            <img src="../img/t1.jpg" alt="">
-            <div class="description">
-                <h1>Ramesh Rawat</h1>
-                <h2>Volunteer</h2>
-                <div class="sites">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-rss-fill"></i>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <img src="../img/t2.jpg" alt="">
-            <div class="description">
-                <h1>Ramesh Rawat</h1>
-                <h2>Volunteer</h2>
-                <div class="sites">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-rss-fill"></i>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <img src="../img/t3.jpg" alt="">
-            <div class="description">
-                <h1>Ramesh Rawat</h1>
-                <h2>Volunteer</h2>
-                <div class="sites">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-rss-fill"></i>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <img src="../img/t4.jpg" alt="">
-            <div class="description">
-                <h1>Ramesh Rawat</h1>
-                <h2>Volunteer</h2>
-                <div class="sites">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-rss-fill"></i>
-                </div>
-            </div>
-        </div>      
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
     </div>
-</body>
-</html>
+
+    <div class="text-container left-align">
+        <p>This text is left-aligned.</p>
+    </div>
+    <div class="text-container right-align">
+        <p>This text is right-aligned.</p>
+    </div>
+    <div class="text-container center-align">
+        <p>This text is centered.</p>
+    </div>
+    <div class="text-container justify-align">
+        <p>This text is justified, meaning it is stretched so that each line has equal width.</p>
+ 
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+    </div>
+    </div>
+    </body>
+    </html>
